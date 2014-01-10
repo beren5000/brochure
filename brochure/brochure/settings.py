@@ -102,7 +102,7 @@ if DEPLOY=="DEVELOPMENT":
     STATIC_ROOT = BASE_DIR + '/brochure/static/'
 
 if DEPLOY == "PRODUCTION":
-    STATIC_ROOT = "/home/beren5000/webapps/brochure/brochure/brochure/brochure/static"
+    STATIC_ROOT = "/home/beren5000/webapps/brochurestat"
     STATIC_FILES_ROOT = os.path.join(PROJECT_DIR, 'security').replace('\\', '/')
 
 TEMPLATE_DIRS = (
