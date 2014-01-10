@@ -1,0 +1,213 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+
+<style>
+
+    @font-face{
+        font-family: "Blueprint";
+        src: url("{% static 'font/BluprintDEMO.otf' %}"),url("{% static 'font/BluprintDEMO.otf' %}"); /* IE */
+    }
+
+    @font-face{
+        font-family: "Blueprint2";
+        src: url("{% static 'font/PWScratchedfont.ttf' %}"),url("{% static 'font/PWScratchedfont.ttf' %}"); /* IE */
+    }
+
+    .spaces{
+        height: 750px;
+        margin: -20px 0 0;
+        padding: 160px 0 0 0;
+    }
+    .text-paragraph{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height:31px;
+    }
+    .white{
+        color: #ffffff;
+    }
+
+    .grey{
+        color: #7b7b7b;
+    }
+
+    .green{
+        color: #22915d;
+    }
+
+    .inshadows{
+        text-shadow: 3px 3px 3px #878787;
+    }
+    #intro{
+        background-color: #239be3;
+        color: #ffffff;
+    }
+    #about{
+        background-color: #fff;
+        background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+        background-size: 100% 31px;
+    }
+    #works{
+        background-color: #22915d;
+        color: white;
+    }
+    #contact{
+        background-color: #795291;
+        color: white;
+    }
+    .cloud{
+        position: absolute;
+        width: 100%;
+    }
+    .c1{
+        margin-top:-100px;
+    }
+
+    .c2{
+        margin-top:-150px;
+    }
+
+    .c3{
+        margin-top:100px;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/plugins/scroll/jquery.inview.js' %}" ></script>
+<script src="{% static 'js/plugins/scroll/jquery.localscroll-1.2.7-min.js' %}" ></script>
+<script src="{% static 'js/plugins/scroll/jquery.scrollTo-1.4.3.1-min.js' %}" ></script>
+<script src="{% static 'js/plugins/scrolly/jquery.scrolly.js' %}"></script>
+
+
+<script type="text/javascript">
+    function activador(elem){
+        $("#nav>li.active").removeClass("active");
+        $(elem).addClass("active");
+
+    }
+    $(document).ready(function(){
+        $.localScroll();
+        $('.cloud').scrolly();
+    })
+</script>
+
+<head>
+    <title>hola</title>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-image:url('{% static 'img/fleck-white.gif' %}');">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Camilo Monsalve</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul id="nav" class="nav navbar-nav navbar-right">
+                <li class="active " onclick="activador(this)"><a href="#intro">Home</a></li>
+                <li onclick="activador(this)"><a href="#about">About</a></li>
+                <li onclick="activador(this)"><a href="#works" >Works</a></li>
+                <li onclick="activador(this)"><a href="#contact" >Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+    <div id="intro" class="spaces inshadows" style="z-index: 99">
+        <img class="cloud c1" data-velocity=".1" src="{% static 'img/cloud1.png' %}">
+        <img class="cloud c2" data-velocity="-.1" src="{% static 'img/cloud2.png' %}">
+        <img class="cloud c3" data-velocity="-.3" src="{% static 'img/cloud3.png' %}">
+        <div class="story container">
+            <div class="row">
+                <div class="col-md-12"><br><br><br><br></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2">
+                    <h1>Hello, world!</h1>
+                    <p><h2>I'm Camilo. A web developer with passion for web design.</h2></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="..." alt="..." class="img-thumbnail">
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><br><br><br><br></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6">
+                    <a href="#about">
+                        <button type="button" class="btn btn-success">About ME <span class="glyphicon glyphicon-user"></span></button>
+                    </a>
+                </div>
+            </div>
+        </div> <!--.story-->
+    </div> <!--#intro-->
+
+    <div id="about" class="spaces" style="z-index: 100">
+        <div class="story container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="grey" style="font-family:'Blueprint2'; font-size:80px;">ABOUT ME:</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-2">
+                    <p class="text-justify text-paragraph grey">I'm a 26 years old systems engineer from Cali-Colombia,
+                    with emphasis in web development. I have passion for web design and
+                    i'm working as a freelancer since a year ago.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2 ">
+                    <p class="text-justify text-paragraph green">I have 2 year experience with the web Framework Django and
+                    I love to make on-line solutions for the everyday problems.</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h4>SKILLS:</h4></div>
+                        <div class="panel-body">
+                            <img alt="python" src="{% static 'img/python.svg' %}" height="35px">
+                            <img alt="python" src="{% static 'img/django.svg' %}" height="35px">
+                            <img alt="python" src="{% static 'img/css3.png' %}" height="60px">
+                            <img alt="python" src="{% static 'img/html5.png' %}" height="60px">
+                            <img alt="python" src="{% static 'img/javascript.png' %}" height="60px">
+                            <img alt="python" src="{% static 'img/mysql.svg' %}" height="70px">
+                            <img alt="python" src="{% static 'img/jquery.svg' %}" height="35px">
+                            <img alt="python" src="{% static 'img/php.png' %}" height="50px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--.story-->
+    </div> <!--#intro-->
+
+    <div id="works" class="spaces" style="z-index: 101">
+        <div class="story container">
+            Article content here
+        </div> <!--.story-->
+    </div> <!--#intro-->
+
+    <div id="contact" class="spaces">
+        <div class="story container">
+            Article content here
+        </div> <!--.story-->
+    </div> <!--#intro-->
+
+</body>
+</html>

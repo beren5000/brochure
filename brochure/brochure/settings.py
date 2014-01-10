@@ -68,7 +68,14 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'America/Argentina/Buenos_Aires'
+SHORT_DATETIME_FORMAT = 'd/m/y'
+TIME_FORMAT = 'P'
+DATE_FORMAT = "Y"
+
+# Language code for this installation. All choices can be found here:
+# http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'es-ar'
 
 TIME_ZONE = 'UTC'
 
@@ -83,3 +90,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = BASE_DIR + '/brochure/static/'
+
+TEMPLATE_DIRS = (
+    BASE_DIR + '/brochure/templates/'
+)
