@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brochure/modules/main/static/img/photoshop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brochure/modules/main/static/img/works-frame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brochure/modules/main/static/img/ciat.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brochure/templates/main/brochure.html" afterPath="$PROJECT_DIR$/brochure/templates/main/brochure.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="brochure.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389400903149" ignored="false" />
+    <file path="/Dummy.txt" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389409801062" ignored="false" />
     <file path="/settings.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389391674482" ignored="false" />
     <file path="/views.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1388786950770" ignored="false" />
     <file path="/urls.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1388787783630" ignored="false" />
-    <file path="/brochure.html" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389406178051" ignored="false" />
+    <file path="/brochure.html" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389411138941" ignored="false" />
     <file path="/Django Console" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389117938475" ignored="false" />
     <file path="/jquery.html" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389224518957" ignored="false" />
     <file path="$PROJECT_DIR$/../../contenidos/contenidos/settings.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389391747836" ignored="false" />
@@ -102,7 +101,7 @@
       <file leaf-file-name="brochure.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/brochure/templates/main/brochure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="19" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.5590778">
+            <state line="239" column="28" selection-start="9300" selection-end="9300" vertical-scroll-proportion="0.7919255">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -596,7 +595,27 @@
       <created>1389400905650</created>
       <updated>1389400905650</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="with the works images">
+      <created>1389406681157</created>
+      <updated>1389406681157</updated>
+    </task>
+    <task id="LOCAL-00008" summary="with the works images">
+      <created>1389406782089</created>
+      <updated>1389406782089</updated>
+    </task>
+    <task id="LOCAL-00009" summary="with the works images">
+      <created>1389406817875</created>
+      <updated>1389406817875</updated>
+    </task>
+    <task id="LOCAL-00010" summary="with the works images">
+      <created>1389407391408</created>
+      <updated>1389407391408</updated>
+    </task>
+    <task id="LOCAL-00011" summary="with the works images">
+      <created>1389407663706</created>
+      <updated>1389407663706</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -686,7 +705,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="with the works images" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -702,6 +721,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
+    <MESSAGE value="with the works images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,7 +820,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brochure/templates/main/brochure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="19" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.5590778">
+        <state line="239" column="28" selection-start="9300" selection-end="9300" vertical-scroll-proportion="0.7919255">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
