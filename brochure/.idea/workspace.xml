@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" name="Default" comment="" />
+    <list default="true" id="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brochure/modules/main/static/font/DKCrayonCrumble.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brochure/modules/main/static/img/juicenote.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brochure/templates/main/brochure.html" afterPath="$PROJECT_DIR$/brochure/templates/main/brochure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="brochure.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389389985273" ignored="false" />
-    <file path="/settings.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1388792494976" ignored="false" />
+    <file path="/Dummy.txt" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389399195366" ignored="false" />
+    <file path="/settings.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389391674482" ignored="false" />
     <file path="/views.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1388786950770" ignored="false" />
     <file path="/urls.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1388787783630" ignored="false" />
-    <file path="/brochure.html" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389389402044" ignored="false" />
+    <file path="/brochure.html" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389400805834" ignored="false" />
     <file path="/Django Console" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389117938475" ignored="false" />
     <file path="/jquery.html" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389224518957" ignored="false" />
+    <file path="$PROJECT_DIR$/../../contenidos/contenidos/settings.py" changelist="372561bc-6fd6-493d-b0a5-cbe42a58b1cc" time="1389391747836" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,16 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brochure/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0">
+            <state line="104" column="55" selection-start="2552" selection-end="2552" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brochure/deploy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="43" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,13 +102,10 @@
       <file leaf-file-name="brochure.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/brochure/templates/main/brochure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="8" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-2.5716946">
+            <state line="21" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-6.0630374">
               <folding>
-                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,8 +135,9 @@
         <option value="$PROJECT_DIR$/brochure/urls.py" />
         <option value="$PROJECT_DIR$/brochure/modules/main/urls.py" />
         <option value="$PROJECT_DIR$/templates/main/brochure.html" />
-        <option value="$PROJECT_DIR$/brochure/settings.py" />
         <option value="C:/AppServ/www/parallaxmaster/examples/jquery.html" />
+        <option value="$PROJECT_DIR$/brochure/deploy.py" />
+        <option value="$PROJECT_DIR$/brochure/settings.py" />
         <option value="$PROJECT_DIR$/brochure/templates/main/brochure.html" />
       </list>
     </option>
@@ -161,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +221,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,36 +292,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brochure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brochure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brochure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,7 +327,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,14 +334,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="154" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="158" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../devenviroments" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="154" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="832" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="828" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="832" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="153" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="147" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -402,8 +389,8 @@
       <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure\modules\main\static\js\plugins\scroll" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure\modules\main\static\img" />
       <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure\modules\main\static\font" />
+      <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure\modules\main\static\img" />
       <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure\modules\main\static" />
       <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure" />
       <recent name="C:\Users\User\Documents\GitHub\brochure\brochure\brochure\modules" />
@@ -427,29 +414,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="brochure" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,6 +435,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="brochure" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -555,7 +542,19 @@
       <created>1389389988973</created>
       <updated>1389389988973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1389391781094</created>
+      <updated>1389391781094</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1389392330578</created>
+      <updated>1389392330578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1389392925037</created>
+      <updated>1389392925037</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -580,24 +579,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6837748" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25151515" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18106061" sideWeight="0.68543047" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31622517" sideWeight="0.34848484" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31727573" sideWeight="0.6515151" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31456953" sideWeight="0.6515151" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -665,6 +664,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/brochure/templates/main/brochure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="73" selection-start="5994" selection-end="5994" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brochure/modules/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="51" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
@@ -689,13 +698,6 @@
     <entry file="file://$PROJECT_DIR$/brochure/modules/main/static/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brochure/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brochure/modules/main/static/js/plugins/scroll/jquery.scrollTo-1.4.3.1-min.js">
@@ -738,15 +740,26 @@
         <state line="40" column="7" selection-start="1750" selection-end="1793" vertical-scroll-proportion="0.5198777" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/brochure/deploy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brochure/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="55" selection-start="2552" selection-end="2552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brochure/templates/main/brochure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="8" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-2.5716946">
+        <state line="21" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-6.0630374">
           <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
