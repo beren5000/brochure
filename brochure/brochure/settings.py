@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
 
     'brochure.modules.main',
+    'brochure.modules.contactos',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -98,7 +99,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-if DEPLOY=="DEVELOPMENT":
+if DEPLOY == "DEVELOPMENT":
     STATIC_ROOT = BASE_DIR + '/brochure/static/'
 
 if DEPLOY == "PRODUCTION":
@@ -108,3 +109,12 @@ if DEPLOY == "PRODUCTION":
 TEMPLATE_DIRS = (
     BASE_DIR + '/brochure/templates/'
 )
+
+
+#########################################################################   CONFIGURACION PARA ENVIAR EMAILS SMTP
+EMAIL_HOST = 'smtp.webfaction.com'
+EMAIL_HOST_USER = 'ventavehiculosciat'
+EMAIL_HOST_PASSWORD = '@Quimera123@'
+DEFAULT_FROM_EMAIL = 'info@ventavehiculosciat.com'
+SERVER_EMAIL = 'info@camilomonsalve.com'
+CONTACT_FORM = 'contactos@ventavehiculosciat.com'
